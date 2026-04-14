@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YaiArt Nails | Salón de Manicura y Pedicura en Gijón</title>
+    <link rel="icon" type="image/jpeg" href="https://res.cloudinary.com/dfbsqy5ul/image/upload/q_auto/f_auto/v1776108834/254404438_211624211047207_2651743675945680691_n._gzscxx.jpg">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -793,7 +794,17 @@
             transition: var(--transition-smooth);
         }
 
-        .footer-social a:hover {
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .footer-links a {
+            opacity: 0.8;
+        }
+
+        .footer-links a:hover {
             color: var(--color-gold);
             opacity: 1;
         }
@@ -1102,6 +1113,7 @@
         <div class="container">
             <div class="footer-content fade-in">
                 <div class="footer-brand">YaiArt Nails</div>
+                <p style="font-size: 0.9rem; opacity: 0.7; margin-top: -0.5rem; margin-bottom: 1rem;">Tu espacio de manicura y pedicura premium en el centro de Gijón.</p>
                 
                 <div class="footer-info">
                     <p><strong>Profesional:</strong> Yaiza</p>
@@ -1113,6 +1125,16 @@
                     <p><strong>Contacto:</strong></p>
                     <p>Tel: 613 02 32 84</p>
                     <p>Lunes a Sábado · Consultar horario</p>
+                </div>
+
+                <div class="footer-links">
+                    <p><strong>Navegación:</strong></p>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-nosotras">Sobre Nosotras</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#resultados">Resultados</a>
+                    <a href="#resenas">Reseñas</a>
+                    <a href="#reserva">Reserva</a>
                 </div>
                 
                 <div class="footer-social">
